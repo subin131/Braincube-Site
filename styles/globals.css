@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
+.custom-img {
+  background-image: url('https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/302205643_583194656587467_538841932473479483_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=LQ4i0a4rlskAX_qoLV6&_nc_oc=AQmkUhklHnIMmKImieJGrUjyGo9XS4qgeIcMw3ASFkSmEE7fR8a6oACuGZZZS90nwjo&_nc_ht=scontent.fktm17-1.fna&oh=00_AfCJcUIoHfsGBpA4TF8izSd9b6K1E-XYUZ6PcKdmCLTH5g&oe=6413161D')
+}
