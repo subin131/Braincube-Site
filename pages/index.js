@@ -1,9 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import About from '../components/About';
+import Card from '../components/Cards';
+import EventAndProgram from '../components/EventAndProgarm';
 import Hero from '../components/Hero';
 import Instagram from '../components/Instagram';
 import Outcomes from '../components/Outcomes';
+import Services from '../components/Services';
 import Slider from '../components/Slider';
 import { SliderData } from '../components/SliderData';
 
@@ -18,7 +21,10 @@ export default function Home() {
       <Hero heading='Brainycube Research Organization' message='Keep learning and exploring, you are the future of research!' />
       <About/>
       <Outcomes/>
+      <Card/>
       <Slider slides={SliderData} />
+      <Services/>
+      <EventAndProgram/>
       <Instagram />
     </div>
   );
